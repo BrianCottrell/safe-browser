@@ -1,0 +1,12 @@
+{
+  "name": "SafeBrowser",
+  "author": "Brian Cottrell",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A browser filter for selecting content for playlists within the Sound Shop app. SafeBrowser alerts the user when content is inapropriate",
+  "browser_action": {
+  	"default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
